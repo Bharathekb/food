@@ -27,14 +27,14 @@ body {
 .F-800 {
   font-weight: 800 !important;
 }
-.my-navbar{
+.my-navbar {
   position: fixed !important;
   width: 100%;
   top: 0;
   background-color: #d1d1d1;
   z-index: 99;
 }
-.Main{
+.Main {
   margin-top: 56px;
 }
 .fixed-left {
@@ -57,7 +57,7 @@ body {
 .Form-box {
   width: 260px;
 }
-.Food-container{
+.Food-container {
   padding: 20px;
 }
 .Food-box {
@@ -74,10 +74,20 @@ body {
   margin-bottom: 48px;
 }
 
-
-
 .Image-box {
   width: 470px;
   height: 400px;
   overflow: hidden;
+}
+
+@media only screen and (max-width: 1400px) {
+  .Food-box {
+    width: 280px;
+    background-color: black;
+    color: orange;
+  }
+  .Image-box {
+    width: 280px;
+    height: 300px;
+  }
 }
